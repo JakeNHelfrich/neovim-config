@@ -36,6 +36,8 @@ return {
         "query",
         "regex",
         "ruby",
+        "terraform",
+        "hcl",
         "tsx",
         "typescript",
         "vim",
