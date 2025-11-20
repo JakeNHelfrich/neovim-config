@@ -5,6 +5,7 @@ return {
       servers = {
         ruby_lsp = {
           enabled = true,
+          cmd = { vim.fn.expand("~/.rbenv/shims/ruby-lsp") },
         },
         solargraph = {
           enabled = false,
@@ -14,6 +15,7 @@ return {
           -- diagnostics will be duplicated because Solargraph
           -- already calls Rubocop if it is installed
           enabled = true,
+          cmd = { vim.fn.expand("~/.rbenv/shims/rubocop"), "--lsp" },
         },
       },
     },

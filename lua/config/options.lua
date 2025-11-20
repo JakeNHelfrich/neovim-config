@@ -6,3 +6,6 @@ vim.g.lazyvim_check_order = false
 
 vim.g.lazyvim_ruby_lsp = "rub_lsp"
 vim.g.lazyvim_ruby_formatter = "rubocop"
+
+-- Set root directory to always use .git
+vim.g.root_spec = { ".git" }
